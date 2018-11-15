@@ -1,0 +1,16 @@
+@import "global/fonts"
+@import "global/vars"
+@import "global/baseDir"
+@import "global/common"
+@import "global/spriteData"
+@import "global/button"
+
+@import "sections/header"
+@import "sections/nav"
+@import "sections/hero"
+
+
+body {
+background-color: green;
+color: white;
+}

@@ -3,6 +3,7 @@ const browserSync = require('browser-sync').create();
 const spritesmith = require('gulp.spritesmith'); // все иконки находятся в одной большой картинке и он вырезает их
 const sass = require('gulp-sass');
 const rimraf= require('rimraf'); // чистит паку буйлд от ненужного
+const rename = require("gulp-rename");
 
 sass.compiler = require('node-sass');
 
@@ -30,7 +31,8 @@ gulp.task('templates:compile', function buildHTML() {
 
 gulp.task('styles:compile', function () {
   return gulp.src('source/styles/main.scss')
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({outputStyle: "compressed"}).on('error', sass.logError))
+    .pipe(rename("main.min.css"))
     .pipe(gulp.dest('build/css'));
 });
 
