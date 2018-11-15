@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/yaxonby/lending/issues"
   },
-  "homepage": "https://github.com/yaxonby/lending#readme"
+  "homepage": "https://github.com/yaxonby/lending#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-file-include": "^2.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp.spritesmith": "^6.9.0",
+    "node-sass": "^4.10.0",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {}
 }
