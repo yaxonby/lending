@@ -1,16 +1,17 @@
-@import "global/fonts"
-@import "global/vars"
-@import "global/baseDir"
-@import "global/common"
-@import "global/spriteData"
-@import "global/button"
+@import "libs/bootstrap-reboot.min.css";
+@import "global/fonts";
+@import "sections/header";
+//@import "global/vars"
+//@import "global/baseDir"
+//@import "global/common"
+//@import "global/spriteData"
+//@import "global/button"
 
-@import "sections/header"
-@import "sections/nav"
-@import "sections/hero"
+//@import "sections/nav"
+//@import "sections/hero"
 
 
 body {
 background-color: green;
-color: white;
+color: yellow;
 }
