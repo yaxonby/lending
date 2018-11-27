@@ -1,10 +1,36 @@
 .nav-wrapper {
 	width: 1440px;
-	height: 100px;
-	background-color: 	#8AB1E5;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
+	padding-top: 92px;
+	margin-bottom: 220px;
+}
+
+.nav {
+}
+
+.nav_item {
+color: #aaaaaa;
+font-size: 15px;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 0.3px;
+margin-right: 70px;
+text-decoration: none;
+
+&:last-child {
+margin-right:0;
+
+}
+
+&--active,
+&:hover, &:focus, &:active {
+color: #111111;
+text-decoration: none;
+font-weight: 600;
+}
+
 }

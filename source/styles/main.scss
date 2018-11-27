@@ -1,6 +1,9 @@
-@import "libs/bootstrap-reboot.min.css";
+@import "libs/bootstrap-reboot.min.scss";
 @import "global/fonts";
+@import "sections/nav";
 @import "sections/header";
+@import "sections/review";
+
 //@import "global/vars"
 //@import "global/baseDir"
 //@import "global/common"
@@ -12,6 +15,6 @@
 
 
 body {
-background-color: green;
-color: yellow;
+color: black;
+font-family: Lato;
 }
