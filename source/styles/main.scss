@@ -2,8 +2,11 @@
 @import "global/fonts";
 @import "sections/nav";
 @import "sections/header";
-@import "sections/review";
-
+@import "sections/header/review";
+@import "sections/header/video";
+@import "sections/header/container";
+@import "sections/container/instructor";
+@import "sections/container/blog";
 //@import "global/vars"
 //@import "global/baseDir"
 //@import "global/common"
@@ -17,4 +20,9 @@
 body {
 color: black;
 font-family: Lato;
+}
+
+img {
+display: block;
+max-width: 100%;
 }

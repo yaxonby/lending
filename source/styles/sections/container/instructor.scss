@@ -1,0 +1,29 @@
+.instructors-wrapper {
+display: flex;
+justify-content: space-between;
+margin-bottom: 255px;
+}
+
+.instructors{
+text-align:center;
+}
+
+.instructor__photo{
+margin-bottom: 35px;
+}
+
+.instructor__name {
+color:black;
+font-family: "Playfair Display", serif;
+font-size: 30px;
+font-weight: 400;
+letter-spacing: 0.28px;
+margin-bottom: 10px;
+}
+
+.instructor__students {
+	color:green;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 0.14px;
+}

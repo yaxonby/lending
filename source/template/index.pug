@@ -3,11 +3,20 @@ extends _layouts/home
 block content
 	
 	include sections/nav
-	include sections/header
-	include sections/review
-
-		div
-			h1 Tema! Hi! Ok! good.
-				ul
-					li Comedy
-					li Thriller
+	header.header-wrapper 
+		include sections/header
+		div.header-content
+			include sections/header/review
+			include sections/header/video-centre
+			include sections/header/video
+	article.container
+		h2.header-1 Popular Instructors
+			include sections/container/instructors
+		h2.header-1 Recent Blogs by User
+			include sections/container/blog
+	div
+		h1 Tema! Hi! Ok! good.
+			ul
+				li Comedy
+				li Thriller 
+ 
